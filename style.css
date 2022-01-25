@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px;
+    background: rgb(92, 89, 89);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+nav h1{
+    color: rgb(192, 187, 187);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 0 30px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(192, 187, 187);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    color: rgb(94, 109, 136);
+    cursor: pointer;
+    font-size: 25px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./cute-young-girl-with-dark-wavy-hairstyle-bright-makeup-silk-dress-black-jacket-holding-sunglasses-hands-looking-away-against-beige-building-wall.jpg);
+    background-size: cover;
+    position: relative;
+    margin-right: 70px;
+}
+.card{
+    width: 600px;
+    height:180px;
+    background: white;
+    opacity: 50%;
+    position: absolute;
+    bottom: 100px;
+    right:350px;
+}
+.main h1{
+    position: absolute;
+    bottom: 200px;
+    right:460px ;
+    font-size:50px;
+    color: rgb(56, 54, 54);
+}
+.main button{
+    position: absolute;
+    bottom: 140px;
+    right:550px ;
+    width: 200px;
+    height: 40px;
+    background: rgb(56, 54, 54);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.card2{
+    font-size: small;
+    padding: 15px 0;
+    text-align:center ;
+    background: lightgray;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.heading{
+    text-align:center ;
+    padding: 40px 0;
+}
+.line{
+    width: 30px;
+    height: 1px;
+    background-color:black;
+    margin-left: 650px;
+    margin-bottom: 20px;
+}
+.heading h1{
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+}
+.heading h3{
+    letter-spacing: 10px;
+    font-weight: 400;
+    color: rgb(70, 67, 67);
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 20px;
+}
+.img{
+    width: 300px;
+    height: 450px;
+    padding: 0 5px;
+}
+.ending{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(53, 51, 51);
+    color: white;
+    padding: 40px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.ending p{
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    text-align:center ;
+}
+.first i{
+    padding: 0 10px;
+    font-size: medium;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second input{
+    width: 300px;
+    padding: 10px 20px;
+    outline: none;
+    background:grey;
+    color:white;
+    border: none;
+    margin-bottom: 5px;
+}
+.second button{
+    width: 300px;
+    padding:10px 20px ;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.second h4{
+    font-weight: 400;
+    text-align: center;
+}
